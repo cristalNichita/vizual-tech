@@ -39,6 +39,7 @@
             @endforeach
             </tbody>
         </table>
+        {{ $books->links() }}
     @else
         <h1>No results</h1>
     @endif
